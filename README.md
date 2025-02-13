@@ -88,3 +88,16 @@
     <script src="script.js"></script> <!-- Enlace al JavaScript -->
 </body>
 </html>
+function showCry() {
+    alert("😭");
+    document.querySelector(".yes").style.transform = "scale(1.4)";
+}
+
+function goToNextPage() {
+    document.body.innerHTML = `
+        <div style="text-align:center; font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #ff9a9e, #fad0c4); height:100vh; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+            <h1 style="font-size: 40px; color: #ff3399; font-family: 'Pacifico', cursive; animation: fadeIn 1s ease-in-out;">Gracias Amor 💕</h1>
+            <p style="font-size: 22px; color: #ff66b2;">Va a ser el mejor San Valentín, te amooo muchoo 💘</p>
+        </div>
+    `;
+}
